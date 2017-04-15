@@ -10,7 +10,7 @@ public class ThreadDemo {
 		}
 
 		try {
-			Thread.sleep(10000);
+			Thread.sleep(10000); // sleeping about 10sec
 		} catch (InterruptedException e) {
 			System.out.println("Главный поток прерван");
 		}
