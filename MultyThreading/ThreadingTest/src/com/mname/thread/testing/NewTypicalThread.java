@@ -17,7 +17,7 @@ public class NewTypicalThread implements Runnable {
 		try {
 			for (int i = 5; i > 0; i--) {
 				System.out.println(threadName + " : " + i);
-				Thread.sleep(1000);
+				Thread.sleep(1000);// sleep 1 sec
 			}
 
 		} catch (InterruptedException e) {
